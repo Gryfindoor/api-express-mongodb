@@ -123,7 +123,7 @@ BootcampSchema.pre("save", async function(next){
     country: loc[0].countryCode,
   }
   this.address = undefined;
-  next()
+  next();
 })
 
 
